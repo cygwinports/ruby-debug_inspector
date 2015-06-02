@@ -1,0 +1,12 @@
+inherit rubygem
+
+NAME="ruby-debug_inspector"
+VERSION=0.0.2
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby debugging inspector wrapper"
+DESCRIPTION="A Ruby wrapper for the MRI 2.0 debug_inspector API"
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_debug_inspector_CONTENTS="${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_debug_inspector_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
