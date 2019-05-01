@@ -2,7 +2,7 @@ inherit rubygem
 
 NAME="ruby-debug_inspector"
 VERSION=0.0.3
-RELEASE=1
+RELEASE=2
 CATEGORY="Ruby"
 SUMMARY="Ruby debugging inspector wrapper"
 DESCRIPTION="A Ruby wrapper for the MRI 2.0 debug_inspector API"
